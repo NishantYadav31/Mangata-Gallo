@@ -1,0 +1,105 @@
+
+body{
+    background-color: azure;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+h1{
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+
+h2{
+    font-size:2rem;
+}
+
+header > img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+nav{
+    background-color: rgb(129, 223, 126);
+    border-radius: 15px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    color: green;
+}
+
+nav li{
+    font-size: 1.5rem;
+    display:inline-flex;
+    flex:2;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+main>div {
+   background-color: greenyellow; 
+    border-radius: 10px;
+}
+
+main>p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+section{
+    display: flex;
+    margin-top: 5%;
+}
+
+article{
+    background-color: rgb(91, 209, 87);
+    text-align: center;
+    flex:1;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+article>p{
+    align-items: auto;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+article>img{
+    border-radius: 10px;
+}
+a{
+    text-align: start;
+}
+.upcoming , .new, .traditional{
+    margin: 2px;
+    border-radius: 10px;
+
+}
+
+footer{
+    margin-top: 2rem;
+    display:flex;
+    gap: 20px;
+}
+
+footer div {
+    flex: 1;
+    text-align: justify;
+    gap: 10px;
+    
+}
+
+.copyright{
+    text-align: end;
+    text-decoration: overline;
+}
