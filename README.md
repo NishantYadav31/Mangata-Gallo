@@ -1,2 +1,2 @@
 # Mangata-Gallo
-A basic HTML and CSS homepage
+A basic HTML(with Semantic and meta tags) and CSS(Effects and appropriate use) homepage
